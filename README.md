@@ -1,4 +1,4 @@
-# Script-Collection
+# Server-Script-Collection
 
 服务器脚本收集
 
