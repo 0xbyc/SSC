@@ -6,3 +6,7 @@
 ```
 curl -fsSL https://raw.githubusercontent.com/0xbyc/SSC/master/linux/change_ssh_port/change_ssh_port.sh -o change_ssh_port.sh && sudo sh change_ssh_port.sh
 ```
+
+```
+curl -fsSL https://gitee.com/yyphp/SSC/raw/master/linux/change_ssh_port/change_ssh_port.sh -o change_ssh_port.sh && sudo sh change_ssh_port.sh
+```
