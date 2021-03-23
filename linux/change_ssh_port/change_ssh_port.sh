@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# source from https://github.com/oneinstack/oneinstack/blob/master/install.sh#L216-L235
+
 # Use default SSH port 22. If you use another SSH port on your server
 if [ -e "/etc/ssh/sshd_config" ];then
     [ -z "`grep ^Port /etc/ssh/sshd_config`" ] && ssh_port=22 || ssh_port=`grep ^Port /etc/ssh/sshd_config | awk '{print $2}'`
